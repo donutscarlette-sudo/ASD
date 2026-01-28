@@ -1,5 +1,5 @@
 [Index simple.html](https://github.com/user-attachments/files/24898132/Index.simple.html)
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
