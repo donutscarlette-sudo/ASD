@@ -1,0 +1,136 @@
+[Index simple.html](https://github.com/user-attachments/files/24898132/Index.simple.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil con Foto Carnet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        /* Contenedor del encabezado con Flexbox */
+        .header-estudiante {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            display: flex; /* Alinea los hijos en línea */
+            align-items: center; /* Centra verticalmente la foto y el texto */
+            justify-content: center; /* Centra todo el bloque en la pantalla */
+            gap: 20px; /* Espacio entre la foto y el nombre */
+        }
+
+        /* Estilo de la Foto tamaño carnet */
+        .foto-carnet {
+            width: 60px; /* Ancho parecido a carnet */
+            height: 75px; /* Alto parecido a carnet */
+            background-color: #266fa0; /* Color gris por si la imagen no carga */
+            border: 2px solid rgb(14, 14, 14);
+            border-radius: 3px; /* Bordes suavemente redondeados */
+            object-fit: cover; /* Evita que la foto se estire feo */
+        }
+
+        .nombre-texto {
+            font-size: 24px;
+        }
+
+        /* Menú de Navegación */
+        .navbar {
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #1abc9c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-estudiante">
+        <img src="Imagenes/guacamaya.jfif" alt="Foto Carnet" class="foto-carnet">
+        
+        <div class="nombre-texto">
+            Nombre del ESTUDIANTE: <b>Scarlet A.
+            </b>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="#redes">Redes</a>
+        <a href="#soporte">Soporte Técnico</a>
+        <a href="#analisis">Análisis de Datos</a>
+    </div>
+
+    <!--Sección REDES-->
+    <section id="redes">
+<center><h1>REDES</h1></center>
+  <table border="1">
+<tr>
+    <th>Trabajo 1</th>  
+    <th>Trabajo 2</th>   
+    <th>Trabajo 3</th>
+    <th>Trabajo 4</th>    
+</tr>
+<tr>
+    <td><H1>TIPOS DE REDES DFSF</H1><embed src="Documentos/Extractor de Pendientes.jpg" type="application/pdf" width="100%" height="300px" /></td>
+    <td><H1>TOPOLOGÍA DE LA RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td>   
+    <td><H1>DISPOSITIVOS DE RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td> 
+    <td><H1>DISPOSITIVOS DE RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td>     
+</tr>
+
+</table> 
+</section>
+
+ <!--Sección Soporte-->
+ <section id="soporte">
+<center><h1>Soporte Técnico</h1></center>
+  <table border="1">
+<tr>
+    <th>Trabajo 1</th> 
+    <th>Trabajo 2</th>   
+    <th>Trabajo 3</th>
+    <th>Trabajo 4</th>    
+</tr>
+<tr>
+    <td><H1>TIPOS DE REDES DFSF</H1><embed src="Documentos/Partes del Procesador.jpeg" type="application/pdf" width="100%" height="300px" /></td>
+    <td><H1>TOPOLOGÍA DE LA RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td>   
+    <td><H1>DISPOSITIVOS DE RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td> 
+    <td><H1>DISPOSITIVOS DE RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td>     
+</tr>
+
+</table> 
+</section>
+
+<!--Seccion Analisis de Datos-->
+<section id="analisis">
+    <center><h1>Análisis de Datos</h1></center>
+      <table border="1">
+<tr>
+    <th>Trabajo 1</th> 
+    <th>Trabajo 2</th>   
+    <th>Trabajo 3</th>
+    <th>Trabajo 4</th>    
+</tr>
+<tr>
+    <td><H1>TIPOS DE REDES DFSF</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px" /></td>
+    <td><H1>TOPOLOGÍA DE LA RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td>   
+    <td><H1>DISPOSITIVOS DE RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td> 
+    <td><H1>DISPOSITIVOS DE RED</H1><embed src="Documentos/" type="application/pdf" width="100%" height="300px"/></td>     
+</tr>
+</section>
+
+
+
+</body>
+</html>
